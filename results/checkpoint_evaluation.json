@@ -1,0 +1,251 @@
+{
+  "kind": "new_saved_checkpoint_evaluation",
+  "device": "cpu",
+  "timestamp_utc": "2026-10-23T22:21:48.784875+00:00",
+  "environment": {
+    "python": "3.13.9",
+    "architecture": "arm64",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "numpy": "2.5.3"
+  },
+  "batch_size": 256,
+  "models": {
+    "baseline_cnn": {
+      "checkpoint_sha256": "d91159441daef441a23600ac137999aaf5fbfe20c40b12f6303e8fe4dd7ace1e",
+      "source_sha256": "84188fc312cfba4bd8500ba1b50601f84ffac3c4dc97a9e030a918ab89ac6454",
+      "train": {
+        "samples": 50000,
+        "correct": 39292,
+        "accuracy_percent": 78.584,
+        "per_class": {
+          "airplane": {
+            "samples": 5000,
+            "correct": 4046,
+            "accuracy_percent": 80.92
+          },
+          "automobile": {
+            "samples": 5000,
+            "correct": 4484,
+            "accuracy_percent": 89.68
+          },
+          "bird": {
+            "samples": 5000,
+            "correct": 3742,
+            "accuracy_percent": 74.84
+          },
+          "cat": {
+            "samples": 5000,
+            "correct": 2841,
+            "accuracy_percent": 56.82
+          },
+          "deer": {
+            "samples": 5000,
+            "correct": 3589,
+            "accuracy_percent": 71.78
+          },
+          "dog": {
+            "samples": 5000,
+            "correct": 3123,
+            "accuracy_percent": 62.46
+          },
+          "frog": {
+            "samples": 5000,
+            "correct": 4474,
+            "accuracy_percent": 89.48
+          },
+          "horse": {
+            "samples": 5000,
+            "correct": 4044,
+            "accuracy_percent": 80.88
+          },
+          "ship": {
+            "samples": 5000,
+            "correct": 4587,
+            "accuracy_percent": 91.74
+          },
+          "truck": {
+            "samples": 5000,
+            "correct": 4362,
+            "accuracy_percent": 87.24
+          }
+        }
+      },
+      "test": {
+        "samples": 10000,
+        "correct": 6187,
+        "accuracy_percent": 61.87,
+        "per_class": {
+          "airplane": {
+            "samples": 1000,
+            "correct": 662,
+            "accuracy_percent": 66.2
+          },
+          "automobile": {
+            "samples": 1000,
+            "correct": 749,
+            "accuracy_percent": 74.9
+          },
+          "bird": {
+            "samples": 1000,
+            "correct": 521,
+            "accuracy_percent": 52.1
+          },
+          "cat": {
+            "samples": 1000,
+            "correct": 362,
+            "accuracy_percent": 36.2
+          },
+          "deer": {
+            "samples": 1000,
+            "correct": 511,
+            "accuracy_percent": 51.1
+          },
+          "dog": {
+            "samples": 1000,
+            "correct": 457,
+            "accuracy_percent": 45.7
+          },
+          "frog": {
+            "samples": 1000,
+            "correct": 797,
+            "accuracy_percent": 79.7
+          },
+          "horse": {
+            "samples": 1000,
+            "correct": 628,
+            "accuracy_percent": 62.8
+          },
+          "ship": {
+            "samples": 1000,
+            "correct": 801,
+            "accuracy_percent": 80.1
+          },
+          "truck": {
+            "samples": 1000,
+            "correct": 699,
+            "accuracy_percent": 69.9
+          }
+        }
+      }
+    },
+    "deeper_cnn": {
+      "checkpoint_sha256": "976330b67e118e2aa9b159957c8b6792d4ea1e3e2f1cc12960e5b998317e0bc4",
+      "source_sha256": "a95c6de0e70001901859fe246cdaae8593f4ae460deaa6c9d03bae3d6a588fd5",
+      "train": {
+        "samples": 50000,
+        "correct": 28894,
+        "accuracy_percent": 57.788,
+        "per_class": {
+          "airplane": {
+            "samples": 5000,
+            "correct": 2451,
+            "accuracy_percent": 49.02
+          },
+          "automobile": {
+            "samples": 5000,
+            "correct": 3793,
+            "accuracy_percent": 75.86
+          },
+          "bird": {
+            "samples": 5000,
+            "correct": 2027,
+            "accuracy_percent": 40.54
+          },
+          "cat": {
+            "samples": 5000,
+            "correct": 2128,
+            "accuracy_percent": 42.56
+          },
+          "deer": {
+            "samples": 5000,
+            "correct": 2593,
+            "accuracy_percent": 51.86
+          },
+          "dog": {
+            "samples": 5000,
+            "correct": 1886,
+            "accuracy_percent": 37.72
+          },
+          "frog": {
+            "samples": 5000,
+            "correct": 3149,
+            "accuracy_percent": 62.98
+          },
+          "horse": {
+            "samples": 5000,
+            "correct": 3616,
+            "accuracy_percent": 72.32
+          },
+          "ship": {
+            "samples": 5000,
+            "correct": 3731,
+            "accuracy_percent": 74.62
+          },
+          "truck": {
+            "samples": 5000,
+            "correct": 3520,
+            "accuracy_percent": 70.4
+          }
+        }
+      },
+      "test": {
+        "samples": 10000,
+        "correct": 5356,
+        "accuracy_percent": 53.56,
+        "per_class": {
+          "airplane": {
+            "samples": 1000,
+            "correct": 463,
+            "accuracy_percent": 46.3
+          },
+          "automobile": {
+            "samples": 1000,
+            "correct": 691,
+            "accuracy_percent": 69.1
+          },
+          "bird": {
+            "samples": 1000,
+            "correct": 377,
+            "accuracy_percent": 37.7
+          },
+          "cat": {
+            "samples": 1000,
+            "correct": 363,
+            "accuracy_percent": 36.3
+          },
+          "deer": {
+            "samples": 1000,
+            "correct": 478,
+            "accuracy_percent": 47.8
+          },
+          "dog": {
+            "samples": 1000,
+            "correct": 351,
+            "accuracy_percent": 35.1
+          },
+          "frog": {
+            "samples": 1000,
+            "correct": 606,
+            "accuracy_percent": 60.6
+          },
+          "horse": {
+            "samples": 1000,
+            "correct": 663,
+            "accuracy_percent": 66.3
+          },
+          "ship": {
+            "samples": 1000,
+            "correct": 698,
+            "accuracy_percent": 69.8
+          },
+          "truck": {
+            "samples": 1000,
+            "correct": 666,
+            "accuracy_percent": 66.6
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "baseline_cnn/cifar_net.pth",
+    "bytes": 252005,
+    "sha256": "d91159441daef441a23600ac137999aaf5fbfe20c40b12f6303e8fe4dd7ace1e"
+  },
+  {
+    "path": "baseline_cnn/problem1_average_loss.png",
+    "bytes": 21851,
+    "sha256": "e196d7511ea95d182c2e1634b466626fdb62c57f333246a29910e4ad8d7e4928"
+  },
+  {
+    "path": "baseline_cnn/problem1_cifar10.py",
+    "bytes": 13331,
+    "sha256": "84188fc312cfba4bd8500ba1b50601f84ffac3c4dc97a9e030a918ab89ac6454"
+  },
+  {
+    "path": "baseline_cnn/problem1_cnndiagram.drawio.png",
+    "bytes": 60708,
+    "sha256": "f2514175c0d7160a195ed5725e59bc25d6b145be9caf11618679bdf51bc4771a"
+  },
+  {
+    "path": "baseline_cnn/problem1_gradcam_layers.png",
+    "bytes": 58994,
+    "sha256": "13573d46b556606bbe6960c2e6c6f3f7fb16d292f04ea217e8dd47d5027e7520"
+  },
+  {
+    "path": "deeper_cnn/cifar_net.pth",
+    "bytes": 71139,
+    "sha256": "976330b67e118e2aa9b159957c8b6792d4ea1e3e2f1cc12960e5b998317e0bc4"
+  },
+  {
+    "path": "deeper_cnn/problem2_average_loss.png",
+    "bytes": 21074,
+    "sha256": "50bdd8dedba0e3a6bdb755398c70a4a94e0567bdbd82aab2afd58329aae01b90"
+  },
+  {
+    "path": "deeper_cnn/problem2_cifar10.py",
+    "bytes": 11181,
+    "sha256": "a95c6de0e70001901859fe246cdaae8593f4ae460deaa6c9d03bae3d6a588fd5"
+  }
+]

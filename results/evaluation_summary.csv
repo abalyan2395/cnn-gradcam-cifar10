@@ -1,0 +1,5 @@
+model,split,samples,correct,accuracy_percent
+baseline_cnn,train,50000,39292,78.584
+baseline_cnn,test,10000,6187,61.87
+deeper_cnn,train,50000,28894,57.788
+deeper_cnn,test,10000,5356,53.56
